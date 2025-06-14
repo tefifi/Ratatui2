@@ -1,0 +1,41 @@
+title,servings,readyInMinutes,cookingMinutes,preparationMinutes,healthScore,spoonacularScore,pricePerServing,Calories,Carbohydrates,Fat,Protein,Saturated Fat,Sodium,Sugar,Cholesterol,Fiber,cheap,dairyFree,glutenFree,sustainable,vegan,vegetarian,veryHealthy,veryPopular
+Red Lentil Soup with Chicken and Turnips,8,55,45,10,100.0,99.42807006835938,300.45,477.24,51.78,20.34,26.93,3.1,1335.78,10.55,29.75,23.79,False,True,True,False,False,False,True,True
+Asparagus and Pea Soup: Real Convenience Food,2,20,,,100.0,99.4174575805664,178.37,217.43,28.83,7.76,10.84,1.13,11.26,11.54,0.0,11.17,False,True,True,False,True,True,True,False
+Garlicky Kale,2,45,,,83.0,98.9435043334961,69.09,169.87,7.46,14.98,2.11,2.05,40.51,4.12,0.0,2.7,False,True,True,False,True,True,True,False
+Slow Cooker Beef Stew,6,490,480,10,100.0,98.84822845458984,270.41,433.82,40.53,11.63,44.24,4.47,1253.65,3.49,99.88,11.92,False,True,True,False,False,False,True,False
+Red Kidney Bean Jambalaya,6,45,,,96.0,98.81859588623047,168.43,392.8,69.36,6.45,18.13,0.96,1111.47,10.19,0.0,16.25,False,True,True,False,True,True,True,False
+"Cauliflower, Brown Rice, and Vegetable Fried Rice",8,30,15,15,51.0,98.71629333496094,119.36,248.3,28.91,12.96,7.06,4.18,444.09,3.23,0.0,5.81,False,True,True,False,True,True,False,True
+Quinoa and Chickpea Salad with Sun-Dried Tomatoes and Dried Cherries,6,45,,,100.0,98.62958526611328,186.91,538.7,84.48,14.62,20.86,1.97,221.29,17.87,0.0,14.78,False,True,True,False,False,True,True,False
+Easy Homemade Rice and Beans,2,35,,,60.0,98.6249008178711,106.02,445.69,86.11,4.09,19.14,0.7,1058.31,7.35,0.0,19.36,False,True,True,False,True,True,True,True
+Tuscan White Bean Soup with Olive Oil and Rosemary,6,45,,,94.0,98.55391693115234,49.7,242.41,43.37,1.29,16.13,0.26,206.16,2.23,0.0,10.66,False,True,True,False,True,True,True,False
+Crunchy Brussels Sprouts Side Dish,4,30,,,100.0,98.45755004882812,169.38,231.8,19.79,15.91,7.94,2.03,64.76,5.33,0.0,8.18,False,True,True,False,False,True,True,False
+Slow Cooker: Pork and Garbanzo Beans,6,45,,,100.0,98.12767791748047,298.81,586.78,48.51,14.04,65.78,3.34,914.69,8.63,142.88,14.09,False,True,True,False,False,False,True,False
+Powerhouse Almond Matcha Superfood Smoothie,2,10,,,52.0,98.10945892333984,259.09,281.18,33.78,12.94,10.33,0.93,252.79,20.05,0.0,7.08,False,True,True,False,False,False,False,False
+Broccolini Quinoa Pilaf,2,30,,,74.0,98.0940933227539,414.24,625.07,71.66,30.69,19.85,3.32,971.81,6.45,0.0,9.56,False,True,True,False,True,True,True,False
+Easy To Make Spring Rolls,4,45,,,100.0,98.0363540649414,377.64,161.61,28.28,2.0,13.32,0.14,1245.15,9.93,32.38,5.84,False,True,True,False,False,False,True,False
+Farro With Mushrooms and Asparagus,4,75,,,80.0,97.87763977050781,394.03,365.28,61.53,9.37,12.3,1.57,376.22,5.8,3.6,12.77,False,True,False,False,False,True,True,False
+Butternut Squash Frittata,1,45,,,100.0,97.8530502319336,340.39,462.09,96.03,3.99,23.89,2.28,336.24,23.67,7.42,16.56,False,False,True,False,False,False,True,False
+Herbivoracious' White Bean and Kale Soup,6,45,,,100.0,97.81668853759766,78.07,331.54,46.27,9.98,16.99,1.45,432.44,3.03,0.0,11.86,False,True,True,False,True,True,True,False
+Tomato and lentil soup,4,45,,,100.0,97.75595092773438,115.56,340.11,50.72,8.08,18.31,1.13,377.99,7.6,0.0,22.52,False,True,True,False,True,True,True,False
+Swiss Chard Wraps,6,45,,,90.0,97.75397491455078,81.56,137.21,8.63,11.2,3.61,1.64,116.19,2.75,0.0,4.43,False,True,True,False,True,True,True,False
+Corn Avocado Salsa,2,25,,,71.0,97.75215148925781,130.73,237.36,26.27,15.58,4.62,2.25,13.83,2.32,0.0,9.23,False,True,True,False,True,True,True,False
+Cheesy Chicken Enchilada Quinoa Casserole,4,30,15,15,38.0,97.69828796386719,262.25,594.1,68.04,23.79,34.23,9.04,1709.61,14.56,62.32,17.73,False,False,True,False,False,False,False,True
+Zesty Green Pea and Jalapeño Pesto Pasta,4,45,,,57.0,97.64311981201172,115.45,324.82,46.47,11.6,9.57,1.66,21.4,6.05,0.0,5.66,False,True,False,False,False,False,True,False
+Jade Buddha Salmon Tartare,2,45,,,89.0,97.63711547851562,696.04,382.32,5.13,24.91,34.26,3.62,271.27,0.95,93.55,1.24,False,True,True,False,False,False,True,False
+Finger Foods: Frittata Muffins,1,45,,,49.0,97.6251220703125,295.92,654.73,12.9,44.88,49.45,19.26,964.99,5.84,1038.7,3.51,False,False,True,False,False,True,False,True
+Spicy Black-Eyed Pea Curry with Swiss Chard and Roasted Eggplant,6,45,,,71.0,97.58406066894531,94.05,128.72,23.17,2.2,6.73,0.34,551.5,7.24,0.0,8.23,False,True,True,False,True,True,True,False
+Moroccan chickpea and lentil stew,3,30,,,96.0,97.5377426147461,126.12,465.29,82.4,7.26,20.02,0.93,758.7,5.03,0.0,15.55,False,True,False,False,True,True,True,False
+Strawberry-Mango Quinoa Salad,4,45,,,66.0,97.1993179321289,187.33,353.62,45.92,16.8,7.78,2.35,208.34,14.33,0.65,6.46,False,False,True,False,False,True,True,False
+Caldo Verde - Portuguese Kale Soup,4,45,,,89.0,97.14779663085938,224.09,492.94,82.25,10.28,19.76,4.79,645.28,10.06,40.36,11.79,False,True,True,False,False,False,True,False
+Moroccan Couscous and Chickpea Salad,6,45,,,56.0,96.97752380371094,187.17,483.46,53.47,25.22,13.96,3.33,638.24,3.31,0.0,8.86,False,True,False,False,True,True,False,False
+Easy Vegetable Beef Soup,8,150,120,30,65.0,96.96968841552734,345.26,565.84,55.76,19.15,45.43,7.71,1904.11,11.62,100.4,11.86,False,True,False,False,False,False,True,False
+Mango Fried Rice,2,45,,,45.0,96.96881103515625,151.08,486.24,95.36,4.03,15.96,1.03,404.1,4.39,7.74,4.94,False,True,True,False,False,False,False,False
+Homemade Guacamole,4,45,,,34.0,96.87800598144531,91.76,170.13,10.91,14.83,2.32,2.15,8.48,1.62,0.0,7.19,False,True,True,False,True,True,False,True
+"Spicy Salad with Kidney Beans, Cheddar, and Nuts",1,10,,,78.0,96.82890319824219,458.2,719.45,51.2,49.33,26.74,11.22,351.63,4.84,30.0,17.91,False,False,True,False,False,True,True,False
+Roasted Broccoli with Lemon and Garlic,4,45,,,70.0,96.82714080810547,30.33,58.24,8.0,2.43,3.28,0.41,328.45,1.96,0.0,3.04,False,True,True,False,True,True,True,False
+Spicy Indian-Style Hummus,12,45,,,40.0,96.8008041381836,43.68,133.79,15.34,6.38,5.24,0.85,203.18,2.76,0.0,4.23,False,True,True,False,True,True,False,False
+"Stir Fried Quinoa, Brown Rice and Chicken Breast",1,45,,,66.0,96.79209899902344,357.8,750.02,84.81,19.53,57.79,6.45,355.42,4.49,161.3,7.18,False,False,True,False,False,False,True,False
+Snap Pea and Green Bean Salad with Arugula Pesto,6,45,,,49.0,96.73948669433594,221.91,314.3,21.52,22.01,12.3,2.5,215.64,6.08,2.65,7.63,False,False,True,False,False,True,False,False
+Skinny Kale Basil Pesto,3,45,,,81.0,96.67237854003906,105.92,70.01,4.36,5.01,2.96,1.03,278.49,0.7,2.9,1.26,False,False,True,False,False,False,True,False
+"Greek-Style Baked Fish: Fresh, Simple, and Delicious",4,30,,,42.0,96.66572570800781,303.59,344.33,28.01,12.4,27.77,3.62,419.71,2.85,69.31,1.89,False,False,True,False,False,False,False,True
+Spinach Salad with Strawberry Vinaigrette,1,45,,,79.0,96.56232452392578,338.97,321.81,29.95,12.73,22.03,3.38,341.17,18.33,55.14,6.47,False,False,True,False,False,False,True,False
