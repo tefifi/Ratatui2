@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Scanner;
 
 public class Usuario {
     private int id;
@@ -9,8 +10,23 @@ public class Usuario {
     ArrayList<Condicion> condiciones;
     ArrayList<Receta> recetas;
 
-    public void agregarCondicion(Condicion condicion){
-        condiciones.add(condicion);
+    Scanner scanner = new Scanner(System.in);
+
+    public void agregarCondicion(){
+        System.out.println("Que condicion quieres agregar");
+
+
+        switch (scanner.next()){
+            case "diabetes":
+                Diabetes diabetes = new Diabetes();
+                condiciones.add(diabetes);
+                break;
+
+            case "hipertension":
+                Hipertension hipertension = new Hipertension();
+                condiciones.add(hipertension);
+
+        }
     }
 
     public void agregarReceta(Receta receta){
@@ -25,5 +41,10 @@ public class Usuario {
 
     public ArrayList<Condicion> getCondiciones() {
         return condiciones;
+    }
+
+    public Usuario() {
+        this.condiciones = new ArrayList<>();
+        this.recetas = new ArrayList<>();
     }
 }

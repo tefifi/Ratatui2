@@ -1,13 +1,19 @@
+
 import java.util.Scanner;
 
 public class SistemaRecomendacion {
     Scanner scanner = new Scanner(System.in);
+    private boolean aprobado = false;
+
 
     private Receta receta = new Receta();
+    private Receta recetaAprob;
     private Usuario usuario = new Usuario();
 
+
     public void recomendarReceta(){
-        System.out.println("Te recomendamos esta receta: "+receta.getNombre());
+        recetaAprob = filtrarReceta();
+        System.out.println("Te recomendamos esta receta: "+recetaAprob.getNombre());
         receta.mostrarReceta();
 
     }
@@ -25,29 +31,49 @@ public class SistemaRecomendacion {
         }
     }
 
-    public void filtrarReceta(){
+    public Receta filtrarReceta(){
 
-        for (Condicion condicion : usuario.getCondiciones()){
-            switch (condicion.getNombre()){
-                case "diabetes":
-                    if (condicion.obtenerValor() < receta.getDatosNutricionales().getAzucar()) {
-                        System.out.println("Demasiado azúcar para esta persona con diabetes.");
+
+        for (int i = 0; i<80; i++){
+            if (usuario.condiciones.size()!=0) {
+
+                if (aprobado == false) {
+                    receta.atributosReceta();
+
+                    switch (usuario.condiciones.get(i).getNombre()) {
+                        case "diabetes":
+                            if (usuario.condiciones.get(i).obtenerValor() > receta.getDatosNutricionales().getAzucar()) {
+                                aprobado = true;
+                                System.out.println("Ta funcionando");
+                            }
+                            break;
+
+
+                        case "hipertension":
+                            if (usuario.condiciones.get(i).obtenerValor() > receta.getDatosNutricionales().getSodio()) {
+                                aprobado = true;
+                                System.out.println("Ta funcionando?");
+                            }
+                             break;
+
+                        default:
+                            System.out.println("Condición no reconocida: " + usuario.condiciones.get(i).getNombre());
+
                     }
-                    break;
-
-                case "hipertension":
-                    if (condicion.obtenerValor() < receta.getDatosNutricionales().getSodio()) {
-                        System.out.println("Demasiado sodio para esta persona con hipertensión.");
-                    }
-                    break;
-
-                default:
-                    System.out.println("Condición no reconocida: " + condicion.getNombre());
-
+                }
+            }else {
+                receta.atributosReceta();
+                System.out.println("no hay condiciones");
+                return null;
             }
+            break;
+
         }
+        return receta;
+
     }
 
-
-
+    public SistemaRecomendacion(Usuario usuario) {
+        this.usuario = usuario;
+    }
 }

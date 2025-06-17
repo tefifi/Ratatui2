@@ -7,4 +7,8 @@ public abstract class Condicion {
     public String getNombre() {
         return nombre;
     }
+
+    public Condicion(String nombre) {
+        this.nombre = nombre;
+    }
 }

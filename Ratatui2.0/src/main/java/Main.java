@@ -15,14 +15,10 @@ public class Main {
         String recetasFile = GestorArchivo.leerArchivo("Data/recetas.csv");
         System.out.println("recetasFile = "+recetasFile);
 
-        Diabetes diabetes = new Diabetes();
-        Hipertension hipertension = new Hipertension();
-        SistemaRecomendacion sistemaRecomendacion = new SistemaRecomendacion();
+        Usuario usuario = new Usuario();
+        usuario.agregarCondicion();
 
-
-
-
-        DatosNutricionales datosNutricionales = new DatosNutricionales();
+        SistemaRecomendacion sistemaRecomendacion = new SistemaRecomendacion(usuario);
 
         sistemaRecomendacion.recomendarReceta();
 
